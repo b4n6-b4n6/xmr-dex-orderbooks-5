@@ -1,0 +1,64 @@
+https://api.eigenwallet.org/api/list
+
+[
+  {
+    "peerId": "12D3KooWSxwXaemRXCmWKFbR6JrLSc5ZoiWxxE79Fhki9rbcWU7r",
+    "multiAddr": "/onion3/dx4mcudpfxmms373ocslusw5eox6ak6ugtt2ax4wcudr7czxvk5j5byd:9939/p2p/12D3KooWSxwXaemRXCmWKFbR6JrLSc5ZoiWxxE79Fhki9rbcWU7r",
+    "testnet": false,
+    "version": "3.6.1",
+    "price": 528414,
+    "minSwapAmount": 200000,
+    "maxSwapAmount": 650140215,
+    "age": 5425999,
+    "recommended": false,
+    "relevancy": 1.0
+  },
+  {
+    "peerId": "12D3KooWSJSs9q9cqo9smJrcfYkqd6baYoCu1q6faKbsY2tRzkCG",
+    "multiAddr": "/onion3/ylklhe45mzrj4ihrws4okx5f3zvxw47tam343rlq2sj4ewvfinniltyd:9939/p2p/12D3KooWSJSs9q9cqo9smJrcfYkqd6baYoCu1q6faKbsY2tRzkCG",
+    "testnet": false,
+    "version": "3.6.1",
+    "price": 532746,
+    "minSwapAmount": 300000,
+    "maxSwapAmount": 83337973,
+    "age": 1968544,
+    "recommended": false,
+    "relevancy": 1.0
+  },
+  {
+    "peerId": "12D3KooWRfthPEkt7TcbG1oyrfg2mTQ2oDHxUiipMUwGHdS7JFec",
+    "multiAddr": "/onion3/7mty2rxnesu657e2akq5e7wrowz5erznjlqahvv6qav2kdjjxi5p7wad:9939/p2p/12D3KooWRfthPEkt7TcbG1oyrfg2mTQ2oDHxUiipMUwGHdS7JFec",
+    "testnet": false,
+    "version": "3.6.1",
+    "price": 560412,
+    "minSwapAmount": 30000,
+    "maxSwapAmount": 500000,
+    "age": 1968350,
+    "recommended": false,
+    "relevancy": 1.0
+  },
+  {
+    "peerId": "12D3KooWPB3MnFVtFTH39i4S93SHSN8wxGjVPxGrZPu1y42roYXF",
+    "multiAddr": "/onion3/4vcdjivxthzkz55fzmfbjjepmgxquccrce7ohzccc4gy7jmfuloobyad:9939/p2p/12D3KooWPB3MnFVtFTH39i4S93SHSN8wxGjVPxGrZPu1y42roYXF",
+    "testnet": false,
+    "version": "3.6.1",
+    "price": 527958,
+    "minSwapAmount": 500000,
+    "maxSwapAmount": 40000000,
+    "age": 1968543,
+    "recommended": false,
+    "relevancy": 1.0
+  },
+  {
+    "peerId": "12D3KooWP8M6ororMZkCTyEKoY2m6MTwX8SHm7NgAcwFqKnFPPbR",
+    "multiAddr": "/onion3/7azmu2j32p3ot5kh46xgg7ykvsoakkcrx7fj3t55rcgut2uturyex5yd:9939/p2p/12D3KooWP8M6ororMZkCTyEKoY2m6MTwX8SHm7NgAcwFqKnFPPbR",
+    "testnet": false,
+    "version": "3.6.3",
+    "price": 544443,
+    "minSwapAmount": 500000,
+    "maxSwapAmount": 3861329,
+    "age": 24201191,
+    "recommended": false,
+    "relevancy": 1.0
+  }
+]

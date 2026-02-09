@@ -1,0 +1,18 @@
+.App {
+  background-color: #282c34;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2vmin;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+

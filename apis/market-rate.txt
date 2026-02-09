@@ -1,0 +1,5 @@
+https://min-api.cryptocompare.com/data/price?fsym=XMR&tsyms=BTC
+{"BTC":0.005063}
+
+https://api.coingecko.com/api/v3/simple/price?ids=monero&vs_currencies=btc
+{"monero":{"btc":0.00522153}}
