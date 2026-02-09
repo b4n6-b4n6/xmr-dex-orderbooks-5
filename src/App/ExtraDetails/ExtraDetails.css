@@ -1,0 +1,35 @@
+.ExtraDetails {
+  background: white;
+  color: #282c34;
+
+  border-radius: 100%;
+  user-select: none;
+
+  padding: 0 0.25em;
+  font-weight: 900;
+}
+
+.ExtraDetails:hover, .ExtraDetails:focus {
+  position: relative;
+}
+.ExtraDetails:hover::after, .ExtraDetails:focus::after {
+  content: attr(title);
+  font-size: 1rem;
+
+  position: absolute;
+  background: white;
+  padding: 0.5vmin;;
+  color: #282c34;
+  width: max-content;
+  z-index: 999;
+}
+.ExtraDetails.left:hover::after, .ExtraDetails.left:focus::after {
+  left: 50%;
+  top: 50%;
+  transform: translate(calc(-100% - 1em), -50%);
+}
+.ExtraDetails.right:hover::after, .ExtraDetails.right:focus::after {
+  left: 50%;
+  top: 50%;
+  transform: translate(calc(1em), -50%);
+}

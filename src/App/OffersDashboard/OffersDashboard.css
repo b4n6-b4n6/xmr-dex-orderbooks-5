@@ -1,0 +1,26 @@
+.OffersDashboard {
+  flex-grow: 1;
+  display: flex;
+
+  overflow: auto;
+}
+
+@media (width < 65em) {
+  .OffersDashboard {
+    flex-direction: column;
+  }
+  .OffersDashboard > * {
+    margin: 0 auto;
+  }
+}
+@media (width >= 65em) {
+  .OffersDashboard > * {
+    margin: 0 auto;
+  }
+  .OffersDashboard > *:first-child {
+    margin-right: 1vmin;
+  }
+  .OffersDashboard > *:last-child {
+    margin-left: 1vmin;
+  }
+}

@@ -1,0 +1,67 @@
+http://ismqxpn6cqx5knkzrs2w6vpf56mnaevgw2kaogxjasuqkma3je5vd6qd.onion/btc-xmr.json
+
+[
+  {
+    "maker": "Monero",
+    "taker": "Bitcoin",
+    "rate": 0.00527031,
+    "amount_min": "0.005000000000",
+    "amount_max": "1.000000000000"
+  },
+  {
+    "maker": "Monero",
+    "taker": "Bitcoin",
+    "rate": 0.00530562,
+    "amount_min": "0.005000000000",
+    "amount_max": "2.000000000000"
+  },
+  {
+    "maker": "Monero",
+    "taker": "Bitcoin",
+    "rate": 0.00531424,
+    "amount_min": "0.005000000000",
+    "amount_max": "5.000000000000"
+  },
+  {
+    "maker": "Monero",
+    "taker": "Bitcoin",
+    "rate": 0.0053706,
+    "amount_min": "0.005000000000",
+    "amount_max": "5.000000000000"
+  },
+  {
+    "maker": "Monero",
+    "taker": "Bitcoin",
+    "rate": 0.00592375,
+    "amount_min": "0.001000000000",
+    "amount_max": "6.871000000000"
+  },
+  {
+    "maker": "Bitcoin",
+    "taker": "Monero",
+    "rate": 213.464816167462,
+    "amount_min": "0.00100000",
+    "amount_max": "0.01300000"
+  },
+  {
+    "maker": "Bitcoin",
+    "taker": "Monero",
+    "rate": 620,
+    "amount_min": "0.00100000",
+    "amount_max": "0.00200000"
+  },
+  {
+    "maker": "Bitcoin",
+    "taker": "Monero",
+    "rate": 666,
+    "amount_min": "0.00100000",
+    "amount_max": "0.00110000"
+  },
+  {
+    "maker": "Bitcoin",
+    "taker": "Monero",
+    "rate": 1000,
+    "amount_min": "0.00100000",
+    "amount_max": "0.00110000"
+  }
+]
