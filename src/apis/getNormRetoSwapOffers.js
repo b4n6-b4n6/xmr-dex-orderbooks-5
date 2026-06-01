@@ -9,6 +9,7 @@ import floatingXmrToPico from '../utils/floatingXmrToPico';
 import createCached from '../utils/createCached';
 import relativeness from '../utils/relativeness';
 import createFallbacked from '../utils/createFallbacked';
+import { RETOSWAP_PLATFORM_FEE_SCALE as PLATFORM_FEE_SCALE } from '../const';
 
 async function getNormRetoSwapOffers() {
   const offers = await getRetoSwapOffers();
@@ -17,7 +18,7 @@ async function getNormRetoSwapOffers() {
   return {
     buys: (
       Object.values(offers.SELL).flat().map((offer) => {
-        const offerRate = floatingBtcToSat(1 / offer.price);
+        const offerRate = floatingBtcToSat(1 / offer.price * PLATFORM_FEE_SCALE);
 
         return {
           rate: satToBtc(offerRate),
@@ -32,7 +33,7 @@ async function getNormRetoSwapOffers() {
     ),
     sells: (
       Object.values(offers.BUY).flat().map((offer) => {
-        const offerRate = floatingBtcToSat(1 / offer.price);
+        const offerRate = floatingBtcToSat(1 / offer.price / PLATFORM_FEE_SCALE);
 
         return {
           rate: satToBtc(offerRate),

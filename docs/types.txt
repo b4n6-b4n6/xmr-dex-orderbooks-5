@@ -1,0 +1,6 @@
+sats - big int
+picos - big int
+floating btc - number
+floating xmr - number
+btc - string
+xmr - string
